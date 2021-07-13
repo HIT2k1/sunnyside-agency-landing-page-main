@@ -1,0 +1,32 @@
+.footer {
+    background-color: #90d4c5;
+    &-container {
+        max-width: 300px;
+        margin: 0 auto;
+        padding-top: 7rem;
+        padding-bottom: 7rem;
+    }
+    &-logo {
+        margin-bottom: 4.5rem;
+        font-size: 3rem;
+        color: $dark-blue;
+        font-weight: 900;
+    }
+    ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 9rem;
+        li {
+            color: $dark-moderate-cyan;
+        }
+    }
+    .social {
+        a {
+            display: inline-block;
+            padding-left: 1.4rem;
+            padding-right: 1.4rem;
+        }
+    }
+}
+

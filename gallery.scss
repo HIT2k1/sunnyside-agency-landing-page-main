@@ -1,0 +1,29 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    img {
+        display: block;
+        width: 50%;
+        object-fit: cover;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .gallery {
+        img {
+            width: 25%;
+            &:first-child {
+                content: url(./images/desktop/image-gallery-milkbottles.jpg);
+            }
+            &:nth-child(2) {
+                content: url(./images/desktop/image-gallery-orange.jpg);
+            }
+            &:nth-child(3) {
+                content: url(./images/desktop/image-gallery-cone.jpg);
+            }
+            &:last-child {
+                content: url(./images/desktop/image-gallery-sugarcubes.jpg);
+            }
+        }
+    }
+}
